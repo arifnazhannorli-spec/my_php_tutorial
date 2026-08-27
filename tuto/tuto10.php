@@ -1,5 +1,5 @@
 <?php
-
+// done with tuto10
   // comparisons booleans (true or false)
   //echo true; "1"
   //echo false; ""
