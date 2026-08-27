@@ -1,18 +1,12 @@
 <?php
 
-// testing GET first
-// if(isset($_GET['submit'])){
-//     echo $_GET['email'];
-//     echo $_GET['title'];
-//     echo $_GET['ingredients'];
-// }
-
-// using POST now
+// check if form kena submit
 if(isset($_POST['submit'])){
 
-    echo $_POST['email'];
-    echo $_POST['title'];
-    echo $_POST['ingredients'];
+    // make input safer before show it
+    echo htmlspecialchars($_POST['email']);
+    echo htmlspecialchars($_POST['title']);
+    echo htmlspecialchars($_POST['ingredients']);
 
 }
 
