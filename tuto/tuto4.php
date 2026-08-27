@@ -1,5 +1,5 @@
 <?php
-
+// done with tuto4
 define('NAME', 'Adam');
 
 // $name = "Yoshi";
