@@ -1,5 +1,5 @@
 <?php
-
+// done with tuto7
   // indexed arrays
 
   $peopleOne = ['shaun', 'crystal', 'ryu'];
