@@ -1,5 +1,5 @@
 <?php
-
+// tuto14 done
 // local = only inside function
 // global = use outside variable inside function
 // & = change the actual original variable
