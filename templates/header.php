@@ -1,6 +1,6 @@
 <head>
 
-    <title>Ninja Pizzas</title>
+    <title>Ninja Pizza</title>
 
     <!-- materialize css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -13,6 +13,13 @@
 
         .brand-text{
             color: #cbb09c !important;
+        }
+
+        /* form style */
+        form{
+            max-width: 460px;
+            margin: 20px auto;
+            padding: 20px;
         }
 
     </style>

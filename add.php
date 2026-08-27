@@ -1,12 +1,18 @@
 <?php
 
-// checking if form was submitted
+// testing GET first
+// if(isset($_GET['submit'])){
+//     echo $_GET['email'];
+//     echo $_GET['title'];
+//     echo $_GET['ingredients'];
+// }
+
+// using POST now
 if(isset($_POST['submit'])){
 
-    // make the input safer before showing it
-    echo htmlspecialchars($_POST['email']);
-    echo htmlspecialchars($_POST['title']);
-    echo htmlspecialchars($_POST['ingredients']);
+    echo $_POST['email'];
+    echo $_POST['title'];
+    echo $_POST['ingredients'];
 
 }
 
@@ -34,12 +40,7 @@ if(isset($_POST['submit'])){
 
             <div class="center">
 
-                <input
-                    type="submit"
-                    name="submit"
-                    value="submit"
-                    class="btn brand z-depth-0"
-                >
+                <input type="submit" name="submit" value="submit" class="btn brand z-depth-0">
 
             </div>
 
